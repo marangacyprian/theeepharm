@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.example.pharmahelp">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/symbol"
+            android:label="PharmaHelp"
+            android:roundIcon="@mipmap/symbol"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity
+                android:name=".CartActivity"
+                android:exported="false" />
+        <activity
+                android:name=".MainActivity2"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllopathicActivity" />
+        <activity android:name=".HomeopathicActivity" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".YogaActivity" />
+        <activity android:name=".NaturalActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".Profile" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".backpainActivity" />
+        <activity android:name=".thyroidActivity" />
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <ImageView android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:src="@drawable/ic_home"
+                   android:id="@+id/allo"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Price"
+                  android:textSize="16sp"
+                  android:id="@+id/alloprice"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Name"
+                  android:textSize="14sp"
+                  android:id="@+id/alloName"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Now"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:textColorHighlight="#E6DAAE6D"
+                android:background="#FD636262"
+                android:id="@+id/alloSave"/>
+    </LinearLayout>
+
+</LinearLayout>

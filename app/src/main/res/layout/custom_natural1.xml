@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edge">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                        android:layout_gravity="center">
+
+            <ImageView android:layout_width="100dp"
+                       android:layout_height="150dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/ic_home"
+                       android:id="@+id/nat"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Price"
+                      android:textSize="18sp"
+                      android:id="@+id/natoprice"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Name"
+                      android:textSize="16sp"
+                      android:textColor="#E9C70606"
+                      android:id="@+id/natName"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Now"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColorHighlight="#E6DAAE6D"
+                    android:backgroundTint="#969393"
+                    android:backgroundTintMode="src_over"
+                    android:id="@+id/naturalSave" android:background="@drawable/round_edge"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

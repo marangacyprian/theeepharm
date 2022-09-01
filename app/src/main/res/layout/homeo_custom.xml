@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+        <LinearLayout android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@drawable/round_edge">
+
+            <ImageView android:layout_width="100dp"
+                       android:layout_height="120dp"
+                       android:src="@drawable/ic_home"
+                       android:layout_gravity="center"
+                       android:id="@+id/homeo"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Price"
+                      android:textSize="18sp"
+                      android:id="@+id/homeoprice"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Name"
+                      android:textSize="16sp"
+                      android:textColor="#E9C70606"
+                      android:id="@+id/homeoName"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Buy Now"
+                      android:textStyle="bold"
+                      android:textSize="18sp"
+                      android:padding="5dp"
+                      android:layout_gravity="center_horizontal"
+                      android:background="@drawable/backgroundimage"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>

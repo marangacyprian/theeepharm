@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/bggg">
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bggg">
+        /></FrameLayout>
+    <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE BEST PHARMACY APP"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="#DB0C47"/>
+    <FrameLayout
+            android:layout_width="400dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_edge">
+
+        <ListView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:verticalSpacing="5dp"
+                android:horizontalSpacing="10dp"
+                android:id="@+id/poselist"/>
+    </FrameLayout>
+
+
+</LinearLayout>

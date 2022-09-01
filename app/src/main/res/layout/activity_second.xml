@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/bggg">
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/doctor"
+            android:background="#00E7CFCF" android:cropToPadding="true" android:adjustViewBounds="true"
+            android:backgroundTint="#E8141810" android:backgroundTintMode="add" android:foreground="@drawable/doctor"
+            android:foregroundTintMode="src_over" android:foregroundTint="#6A292727"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:id="@+id/imagebtn1"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="350dp"
+                android:src="@drawable/ic_baseline_shopping_cart_24"/>
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_margin="15dp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:text="Live a Healthy Life With Us!"
+                android:textColor="#C9D6021B"/>
+    </RelativeLayout>
+        <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_edge">
+
+            <GridView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                    android:background="@drawable/bggg"
+                      android:padding="10dp"
+                      android:numColumns="auto_fit"
+                      android:columnWidth="150dp"
+                      android:verticalSpacing="5dp"
+                      android:horizontalSpacing="5dp"
+                      android:id="@+id/list"/>
+        </FrameLayout>
+
+
+</LinearLayout>
+

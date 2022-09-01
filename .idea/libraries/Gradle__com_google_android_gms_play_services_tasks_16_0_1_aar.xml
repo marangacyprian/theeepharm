@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-tasks:16.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72fe95140d758a7bc382bb68197bfc36/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72fe95140d758a7bc382bb68197bfc36/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3dd2d083d8faf33a57b8c117bb4e6bb/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9bc3c427358f2b144e11dd629d977cf0/transformed/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/14251e135756b95fc5a505257c9ecdb6/transformed/jetified-play-services-tasks-16.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/14251e135756b95fc5a505257c9ecdb6/transformed/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/14251e135756b95fc5a505257c9ecdb6/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

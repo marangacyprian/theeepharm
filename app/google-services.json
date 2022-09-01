@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "680797713646",
+    "firebase_url": "https://pharmahelp-dda9e.firebaseio.com",
+    "project_id": "pharmahelp-dda9e",
+    "storage_bucket": "pharmahelp-dda9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680797713646:android:e2eccbf3d31ddad8",
+        "android_client_info": {
+          "package_name": "com.example.pharmahelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680797713646-875bsnua9m0j3jcgnl8d1g12j9dimojg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pharmahelp",
+            "certificate_hash": "39d9c0ee0bc150914457b7f0cd3cd12f15150abb"
+          }
+        },
+        {
+          "client_id": "680797713646-tb3mp43onaf3td4061a70n9cvgv1a50s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLt6yBDcsjnacFOaL6t8yX0L-pWIxhR0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680797713646-tb3mp43onaf3td4061a70n9cvgv1a50s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

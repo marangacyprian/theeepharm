@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="20dp"
+
+              android:layout_height="match_parent" android:background="@drawable/bggg" android:backgroundTint="#955A5555"
+              android:backgroundTintMode="src_over">
+
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="390dp"
+            android:id="@+id/fisrtframe"
+            android:backgroundTint="#E8DEE7D4"
+            android:layout_gravity="center"
+            android:background="@drawable/round_edge"
+            android:layout_marginBottom="10dp">
+        <GridView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:id="@+id/naturalList"
+                  android:padding="10dp"
+                  android:numColumns="auto_fit"
+                  android:columnWidth="150dp"
+                  android:verticalSpacing="5dp"
+                  android:horizontalSpacing="5dp"
+                  android:backgroundTintMode="src_over" android:backgroundTint="#E3F385"/>
+    </FrameLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:layout_marginTop="5dp"
+              android:textColor="#033803"
+              android:text="100% Natural Ingredients:Shop Now " android:textStyle="bold"
+              android:fontFamily="cursive"/>
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edge">
+        <GridView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dp"
+                  android:paddingRight="5dp"
+                  android:numColumns="auto_fit"
+                  android:columnWidth="150dp"
+                  android:verticalSpacing="5dp"
+                  android:horizontalSpacing="5dp"
+                  android:id="@+id/naturalList2"/>
+    </FrameLayout>
+</LinearLayout>
